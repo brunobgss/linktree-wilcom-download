@@ -10,14 +10,24 @@
   <!-- Background circle -->
   <circle cx="50" cy="50" r="48" fill="url(#grad1)" />
   
-  <!-- Letter W -->
-  <path d="M 25 30 L 30 60 L 35 40 L 40 55 L 45 35 L 50 60 L 55 40 L 60 55 L 65 35 L 70 60 L 75 30 L 70 30 L 65 50 L 60 35 L 55 50 L 50 30 L 45 50 L 40 35 L 35 50 L 30 30 Z" 
-        fill="white" 
+  <!-- Download icon - arrow pointing down with horizontal line -->
+  <!-- Horizontal line (top) -->
+  <line x1="30" y1="35" x2="70" y2="35" stroke="white" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Arrow pointing down -->
+  <path d="M 50 35 L 50 65 M 35 50 L 50 65 L 65 50" 
+        fill="none"
         stroke="white" 
-        stroke-width="2" />
+        stroke-width="6" 
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+  
+  <!-- Horizontal line (bottom) -->
+  <line x1="25" y1="70" x2="75" y2="70" stroke="white" stroke-width="6" stroke-linecap="round" />
   
   <!-- Decorative dots -->
-  <circle cx="20" cy="75" r="3" fill="white" opacity="0.7" />
-  <circle cx="80" cy="75" r="3" fill="white" opacity="0.7" />
-  <circle cx="50" cy="80" r="2" fill="white" opacity="0.5" />
+  <circle cx="20" cy="20" r="2.5" fill="white" opacity="0.6" />
+  <circle cx="80" cy="20" r="2.5" fill="white" opacity="0.6" />
+  <circle cx="20" cy="80" r="2.5" fill="white" opacity="0.6" />
+  <circle cx="80" cy="80" r="2.5" fill="white" opacity="0.6" />
 </svg>
